@@ -1,0 +1,52 @@
+
+.head {
+  padding-bottom: 400px;
+  background: url("../img/head.png") top/cover no-repeat;
+
+  &__text {
+    color: $color-1;
+    padding: 70px 46px;
+  }
+
+  &__title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+
+    &_list {
+      display: flex;
+    }
+
+    &_item {
+      list-style-type: none;
+      margin-right: 20px;
+    }
+
+    &_link {
+      text-decoration: none;
+      color: $color-2;
+      font-weight: 400;
+      transition: 0.2s;
+
+      &--active {
+        color: $color-1;
+        border-bottom: 2px solid $color-2;
+      }
+    }
+
+    &_link:hover {
+      color: $color-1;
+      border-bottom: 2px solid $color-2;
+    }
+  }
+}
+
+
+.text-color {
+  color: $color-2;
+}
+
