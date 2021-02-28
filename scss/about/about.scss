@@ -1,0 +1,58 @@
+@import "../utils/variables";
+
+
+.about {
+  font-family: "Helvetica Neue";
+
+
+  &__text {
+        display: flex;
+      }
+
+      &__title {
+        line-height: 45px;
+        margin: 70px 140px;
+        font-weight: 400;
+
+        &--grey {
+          color: $color-3;
+          font-size: 30px;
+          margin-left: 10px;
+        }
+
+        &--gold {
+          font-size: 70px;
+
+          &::first-letter {
+            color: $color-2;
+          }
+        }
+      }
+
+      &__description {
+        width: 100%;
+        max-width: 597px;
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 40px 0 10px 0;
+        margin: 10px;
+        color: $color-3;
+
+        &:before {
+          content: '';
+          display: block;
+          width: 1px;
+          height: 150px;
+          background: $color-3;
+          position: absolute;
+          left: 650px;
+          margin-top: 10px;
+        }
+
+        &--font {
+          font-style: italic;
+          color: $color-4;
+        }
+      }
+  }

@@ -40,6 +40,53 @@
   color: #ffc600;
 }
 
+.about {
+  font-family: "Helvetica Neue";
+}
+.about__text {
+  display: flex;
+}
+.about__title {
+  line-height: 45px;
+  margin: 70px 140px;
+  font-weight: 400;
+}
+.about__title--grey {
+  color: #9d9d9d;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.about__title--gold {
+  font-size: 70px;
+}
+.about__title--gold::first-letter {
+  color: #ffc600;
+}
+.about__description {
+  width: 100%;
+  max-width: 597px;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 40px 0 10px 0;
+  margin: 10px;
+  color: #9d9d9d;
+}
+.about__description:before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background: #9d9d9d;
+  position: absolute;
+  left: 650px;
+  margin-top: 10px;
+}
+.about__description--font {
+  font-style: italic;
+  color: #000000;
+}
+
 body {
   margin: 0;
   padding: 0;
