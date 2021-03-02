@@ -71,6 +71,7 @@
   padding: 40px 0 10px 0;
   margin: 10px;
   color: #9d9d9d;
+  margin-bottom: 70px;
 }
 .about__description:before {
   content: "";
@@ -85,6 +86,44 @@
 .about__description--font {
   font-style: italic;
   color: #000000;
+}
+.about__delineation {
+  width: 100%;
+  max-width: 890px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+.about__delineation_section {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  padding: 30px;
+}
+.about__delineation_section--title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.about__delineation_section--text {
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 240px;
+  padding-bottom: 15px;
+  font-style: italic;
+  color: #9d9d9d;
+}
+.about__delineation_section--img {
+  position: relative;
+  width: 100%;
+  max-width: 57px;
+  height: 57px;
+  padding-bottom: 20px;
+}
+.about__delineation_section--img-gamepad {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -43px;
 }
 
 body {
