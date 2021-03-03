@@ -1,0 +1,53 @@
+@import "../utils/variables";
+
+
+.featured {
+
+  &__title {
+    font-size: 30px;
+    margin-left: 80px;
+    font-weight: 500;
+
+    &:first-letter {
+      color: $color-2;
+    }
+  }
+
+  &__menu {
+    padding: 0 20px 40px;
+    margin: 20px 0 0 60px;
+    font-weight: 400;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  &__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: $color-4;
+    ransition: 0.2s;
+
+    &--active {
+      border-bottom: 2px solid $color-2;
+    }
+  }
+
+  &__item:hover {
+    border-bottom: 2px solid $color-2;
+  }
+
+  &__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+  }
+}
