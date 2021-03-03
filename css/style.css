@@ -167,6 +167,30 @@
   padding-bottom: 80px;
 }
 
+.strategic-process__title {
+  font-size: 30px;
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.strategic-process__title:first-letter {
+  color: #ffc600;
+}
+.strategic-process__text {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9d9d9d;
+  text-align: justify;
+}
+.strategic-process__text--font {
+  color: #000000;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;

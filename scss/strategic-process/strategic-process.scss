@@ -1,0 +1,32 @@
+@import "../utils/variables";
+
+
+.strategic-process {
+
+  &__title {
+    font-size: 30px;
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+    &:first-letter {
+      color: $color-2;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color-3;
+    text-align: justify;
+
+    &--font {
+      color: $color-4;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+  }
+}
