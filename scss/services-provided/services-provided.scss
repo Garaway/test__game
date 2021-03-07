@@ -1,0 +1,46 @@
+@import "../utils/variables";
+
+
+.services-provided {
+  background: url("../img/Layer_26.png")0 0/cover no-repeat, url("../img/Layer_25.png") no-repeat;
+  padding-top: 30px;
+  font-family: "Helvetica Neue";
+
+
+  &__title {
+    font-size: 30px;
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: $color-1;
+
+    &:first-letter {
+      color: $color-2;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    color: $color-1;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__text--block {
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    font-size: 11px;
+    margin-bottom: 45px;
+  }
+
+  &__text--h {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+}
