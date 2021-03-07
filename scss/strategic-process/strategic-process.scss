@@ -22,11 +22,55 @@
     font-weight: 400;
     color: $color-3;
     text-align: justify;
+    margin-bottom: 60px;
 
     &--font {
       color: $color-4;
       font-style: italic;
       margin-bottom: 10px;
     }
+  }
+
+  &__gallery {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__gallery--position {
+    display: flex;
+  }
+
+  &__gallery--text {
+    width: 100%;
+    max-width: 420px;
+    text-align: justify;
+    margin: 30px 20px 0 25px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  &__gallery--headline {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+    &::first-letter {
+      font-size: 45px;
+    }
+  }
+
+  &__gallery--font-weight {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  &__gallery--p {
+    color: $color-3;
   }
 }
