@@ -234,6 +234,7 @@
   background: url("../img/Layer_26.png") 0 0/cover no-repeat, url("../img/Layer_25.png") no-repeat;
   padding-top: 30px;
   font-family: "Helvetica Neue";
+  margin-bottom: 110px;
 }
 .services-provided__title {
   font-size: 30px;
@@ -265,6 +266,53 @@
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 17px;
+}
+
+.our-team__wrapper {
+  display: flex;
+}
+.our-team__title {
+  font-size: 30px;
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.our-team__title:first-letter {
+  color: #ffc600;
+}
+.our-team__text {
+  width: 100%;
+  max-width: 624px;
+  margin: 0 0 0 137px;
+  color: #9d9d9d;
+  font-weight: 400;
+  font-size: 14px;
+}
+.our-team__text--font-weight {
+  color: #000000;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.our-team__gallery {
+  display: flex;
+  margin: 35px 0 150px 345px;
+}
+.our-team__gallery--name {
+  max-width: 181px;
+  text-align: center;
+  margin-left: 20px;
+}
+.our-team__gallery--name:first-child {
+  margin-left: 0;
+}
+.our-team__gallery--name-h {
+  font-size: 16px;
+  font-weight: 600;
+}
+.our-team__gallery--name-p {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 body {
