@@ -315,6 +315,13 @@
   font-weight: 500;
 }
 
+.testimonials {
+  background-color: #000000;
+}
+.testimonials__title {
+  color: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -1,0 +1,9 @@
+@import "../utils/variables";
+
+.testimonials {
+  background-color: $color-4;
+
+  &__title {
+    color: $color-1;
+  }
+}
